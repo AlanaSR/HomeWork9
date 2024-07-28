@@ -7,5 +7,15 @@ public class Main {
         System.out.println("Книга " + book1.getNameBook() + ". Автор " + book1.getAuthor().getFirstName() + " " + book1.getAuthor().getLastName() + ". Год издания " + book1.getPublishingYear());
         System.out.println("Book " + book2.getNameBook() + ". Author " + book2.getAuthor().getFirstName() + " " + book2.getAuthor().getLastName() + ". The year of publishing " + book2.getPublishingYear());
         book1.setPublishingYear(1995);
+
+        System.out.println();
+        System.out.println(book1);
+        System.out.println(book2);
+        System.out.println(author1);
+        System.out.println(author2);
+        System.out.println(book1.equals(book2));
+        System.out.println(author1.equals(author2));
     }
+
+
 }
